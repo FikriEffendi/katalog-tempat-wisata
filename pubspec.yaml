@@ -62,10 +62,10 @@ flutter:
   #   - images/a_dot_ham.jpeg
 
   assets:
-    - assets\images\monkasel_4.jpg
-    - assets\images\monkasel_3.jpg
-    - assets\images\monkasel_2.jpg
-    - assets\images\monkasel_1.jpg
+    - assets/images/monkasel_4.jpg
+    - assets/images/monkasel_3.jpg
+    - assets/images/monkasel_2.jpg
+    - assets/images/monkasel_1.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images
@@ -91,15 +91,14 @@ flutter:
   #         weight: 700
 
   fonts:
-    - family:Lobster
+    - family: Lobster
       fonts:
-      - asset: assets/fonts/Lobster/Lobster-Regular.ttf
+        - asset: assets/fonts/Lobster/Lobster-Regular.ttf
+    - family: Oxygen
+      fonts:
+        - asset: assets/fonts/Oxygen/Oxygen-Regular.ttf
+        - asset: assets/fonts/Oxygen/Oxygen-Bold.ttf
+          weight: 700
 
-    - family:Oxygen
-      fonts:
-      - asset: assets/fonts/Oxygen/Oxygen-Regular.ttf
-      - asset: assets/fonts/Oxygen/Oxygen-Bold.ttf
-        weight:700
-  #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
